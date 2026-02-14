@@ -1,0 +1,50 @@
+.form-placeholder::placeholder {
+  color: rgb(202, 202, 202) !important;
+}
+
+.input-form:focus-visible {
+  outline: none;
+  border: none;
+}
+
+.modal-dialog {
+  transform: none !important;
+  margin: 0 !important;
+  width: 800px !important;
+  height: 350px !important;
+  top: 0 !important;
+}
+
+.modal-90w {
+  width: 100%;
+  max-width: 90vw !important;
+}
+
+.searchresultlist {
+  display: flex;
+}
+
+.serachresultitem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #3d3d3d;
+  padding-top: 15px;
+}
+
+.serachresultitem h6 {
+  padding-top: 20px;
+}
+
+.searchcategory {
+  text-decoration: none !important;
+  color: #3d3d3d;
+  padding: 15px;
+}
+
+.itemimage {
+  width: 150px;
+  height: 100%;
+}

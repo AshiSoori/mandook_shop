@@ -1,0 +1,9 @@
+.table {
+  margin-top: 5rem;
+}
+
+.th {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #578e7e;
+}

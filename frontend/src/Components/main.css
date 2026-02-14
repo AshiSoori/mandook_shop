@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Vazirmatn", sans-serif; /* Persian */
+}
+
+:lang(en) {
+  font-family: "Roboto", sans-serif; /* Default for English */
+}

@@ -1,0 +1,12 @@
+.cartLink {
+  color: #578e7e !important;
+}
+.badge {
+  background-color: #578e7e;
+  color: #fffaec;
+  border-radius: 100%;
+  padding: 0.2rem 0.6rem;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+}

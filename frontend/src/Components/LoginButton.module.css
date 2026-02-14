@@ -1,0 +1,24 @@
+.loginBtnTxt {
+  padding-right: 0.5rem;
+  color: #fffaec;
+}
+
+.loginBtn {
+  font-family: vazir !important;
+  background-color: #578e7e !important;
+}
+
+@media screen and (max-width: 425px) {
+  .loginBtnTxt {
+    font-size: 9px;
+    padding-right: 0.2rem !important;
+  }
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}

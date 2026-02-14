@@ -1,0 +1,22 @@
+RewriteEngine On
+
+# این دستور بازنویسی URL یعنی مسیریابی بین صفحات را فعال میکند
+
+RewriteCond %{REQUEST_FILENAME} !-f
+# اگر فایل وجود نداشته باشد
+
+RewriteCond %{REQUEST_FILENAME} !-d
+# اگر دایرکتوری وجود نداشته باشد
+
+
+RewriteRule ^(.*)$ index.html [QSA,L]
+
+# ^ شروع
+
+# . هرکاراکتری
+# * هر تعدادی
+
+# $ پایان
+
+# QSL = Query String Append
+# L = Last Rule

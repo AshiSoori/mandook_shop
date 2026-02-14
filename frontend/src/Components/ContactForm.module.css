@@ -1,0 +1,35 @@
+.input {
+  border: 1px solid #578e7e;
+  margin-bottom: 2rem;
+
+  direction: rtl;
+  text-align: right;
+  border-radius: 3px;
+}
+
+h2 {
+  margin-bottom: 3rem;
+}
+
+.message {
+  width: 90%;
+  height: 200px;
+}
+
+.input:focus {
+  outline: none; /* remove default browser outline */
+  border: 1px solid #578e7e; /* add a custom border */
+  box-shadow: 0 0 2px #578e7e; /* add glow effect */
+  background-color: #f9f9f9; /* change background */
+}
+
+.input::placeholder {
+  font-size: small;
+  font-weight: 100;
+  padding-right: 5px;
+}
+
+.btn {
+  width: 10%;
+  padding: 10px 5px;
+}

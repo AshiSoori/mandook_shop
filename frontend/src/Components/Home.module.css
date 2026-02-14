@@ -1,0 +1,118 @@
+@media screen and (max-width: 425px) {
+  .showRes {
+    display: block;
+    visibility: visible;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .showRes {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.see-all {
+  text-decoration: none;
+  text-align: center;
+  width: 15%;
+  background-color: transparent;
+  font-weight: bold;
+  padding: 10px 15px;
+  color: #3d3d3d;
+  border-radius: 5px;
+  border: 1px solid #3d3d3d;
+}
+
+.see-all:hover {
+  transition: all 0.3s ease;
+  background-color: #3d3d3d;
+  color: #fffaec;
+}
+
+/* .bannercontainer {
+  background-image: url("http://localhost/images/123.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: #ffffffd8; 
+  background-blend-mode: overlay; 
+} */
+
+/* Base hidden state */
+.banner1,
+.banner2,
+.banner3,
+.banner4 {
+  opacity: 0;
+  transition: all 1s ease;
+}
+.banner1 {
+  transform: translateY(-50px);
+}
+:global(.show-top) {
+  opacity: 1;
+  transform: translateY(0);
+}
+.banner2 {
+  transform: translateY(50px);
+}
+
+:global(.show-bottom) {
+  opacity: 1;
+  transform: translateY(0);
+}
+.banner3 {
+  transform: translateX(-50px);
+}
+
+:global(.show-left) {
+  opacity: 1;
+  transform: translateX(0);
+}
+.banner4 {
+  transform: translateX(50px);
+}
+
+:global(.show-right) {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.banner {
+  height: max-content;
+  position: relative;
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+  height: auto; /* keeps natural aspect ratio */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 12px;
+  width: 96%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* semi-transparent black */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* hidden by default */
+  transition: opacity 0.3s ease;
+}
+
+.morebtn {
+  color: white;
+  background-color: #578e7e;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.banner:hover .overlay {
+  opacity: 1; /* show overlay on hover */
+}

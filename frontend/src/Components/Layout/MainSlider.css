@@ -1,0 +1,114 @@
+/* .MainSlider {
+  height: 500px;
+  width: 100%;
+}
+
+.carousel-control-next {
+  right: 85% !important;
+}
+
+.carousel-item {
+  margin-right: 0 !important;
+  margin-left: -100% !important;
+}
+
+@media screen and (max-width: 426px) {
+  .MainSlider {
+    height: 200px !important ;
+  }
+  .MainSlider img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+} */
+
+.MainSlider {
+  position: relative;
+  background-color: aliceblue;
+  height: 700px;
+  width: 100%;
+}
+
+.slider-part1 {
+  height: 700px;
+  background-image: url("../../assets/finalslider1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #578e7e9d; /* black overlay at 50% */
+  background-blend-mode: overlay; /* blends color with image */
+}
+
+.btn-shopping {
+  width: 12%;
+  background-color: #578e7e;
+  padding: 10px 20px;
+  color: white;
+  margin-top: 18%;
+  position: absolute;
+  left: 100%; /* start off-screen */
+  animation: slideLeft 2s ease-out forwards;
+}
+
+@keyframes slideLeft {
+  from {
+    left: 100%; /* off-screen to the right */
+    opacity: 0;
+  }
+  to {
+    left: 60%; /* final position */
+    opacity: 1;
+  }
+}
+
+.btn-shopping:hover {
+  background-color: #508072;
+  color: white;
+}
+
+.typewriter h1 {
+  color: black;
+
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-left: 2px solid #508072; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 2.5s steps(30, end), blink-caret 0.9s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #508072;
+  }
+}
+
+.over-img {
+  animation: slideUp 2s ease-out forwards;
+}
+
+@keyframes slideUp {
+  from {
+    bottom: -300px; /* off-screen */
+    opacity: 0;
+  }
+  to {
+    bottom: 10%; /* final position */
+    opacity: 1;
+  }
+}

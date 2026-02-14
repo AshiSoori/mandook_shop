@@ -1,0 +1,85 @@
+.row {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  border: none !important;
+  border-radius: 5px;
+  width: 90%;
+  overflow: hidden;
+}
+
+.cardTitle {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 0 !important;
+}
+.cardDes {
+  font-size: 0.9rem;
+  color: rgb(65, 65, 65);
+  margin-bottom: 0 !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cardImg {
+  position: relative;
+  width: 100%;
+  object-position: center; /* Center the image */
+  display: block;
+  /* object-fit: cover; */
+  object-fit: contain;
+}
+
+.cardImgLong {
+  height: 350px;
+  /* object-fit: cover; */
+}
+
+.cardImgAmazing {
+  height: 350px;
+  /* object-fit: cover; */
+}
+
+.offspan {
+  position: absolute !important;
+  z-index: 1000;
+  background-color: #578e7e;
+  border-radius: 50%;
+  width: 40px; /* Fixed width */
+  height: 40px; /* Same as width */
+  display: flex; /* Centers content */
+  align-items: center;
+  justify-content: center;
+  padding: 8px 8px;
+  left: 80%;
+  top: 10px;
+  color: #fffaec;
+  font-size: 0.9rem;
+}
+
+.discountedPrice {
+  color: gray;
+  text-decoration: line-through;
+  font-size: 0.8rem;
+}
+
+.cardPrice {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.addToCart {
+  /* top: 90%; */
+  position: absolute;
+  width: 70%;
+  font-size: 0.8rem;
+  height: 40px !important;
+}
+
+ul {
+  list-style: none;
+}

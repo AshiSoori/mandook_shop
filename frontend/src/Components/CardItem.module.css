@@ -1,0 +1,13 @@
+/* .image-gallery-svg {
+  font-size: 20px !important;
+} */
+
+.image-gallery.image-gallery-using-mouse {
+  width: 350px !important;
+}
+
+.image-gallery-fullscreen-button .image-gallery-svg,
+.image-gallery-play-button .image-gallery-svg {
+  display: none;
+  visibility: hidden;
+}

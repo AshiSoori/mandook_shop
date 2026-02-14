@@ -1,0 +1,25 @@
+[14-Feb-2026 06:55:23 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'سبز' for key 'color' in C:\xampp\htdocs\backend\add_new_color.php:52
+Stack trace:
+#0 C:\xampp\htdocs\backend\add_new_color.php(52): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\backend\add_new_color.php on line 52
+[14-Feb-2026 06:55:36 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'بزرگ' for key 'size' in C:\xampp\htdocs\backend\add_new_size.php:53
+Stack trace:
+#0 C:\xampp\htdocs\backend\add_new_size.php(53): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\backend\add_new_size.php on line 53
+[14-Feb-2026 06:55:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'سه ایکس لارج' for key 'size' in C:\xampp\htdocs\backend\add_new_size.php:53
+Stack trace:
+#0 C:\xampp\htdocs\backend\add_new_size.php(53): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\backend\add_new_size.php on line 53
+[14-Feb-2026 06:55:50 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'سه ایکس لارج' for key 'size' in C:\xampp\htdocs\backend\add_new_size.php:53
+Stack trace:
+#0 C:\xampp\htdocs\backend\add_new_size.php(53): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\backend\add_new_size.php on line 53
+[14-Feb-2026 06:56:04 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'کوچک' for key 'size' in C:\xampp\htdocs\backend\add_new_size.php:53
+Stack trace:
+#0 C:\xampp\htdocs\backend\add_new_size.php(53): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\backend\add_new_size.php on line 53

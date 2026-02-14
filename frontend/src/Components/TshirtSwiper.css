@@ -1,0 +1,23 @@
+/* Custom styles for Swiper navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000; /* Change arrow color */
+  background: rgba(255, 255, 255, 0.8); /* Add background */
+  border-radius: 50%; /* Make circular */
+  width: 40px;
+  height: 40px;
+}
+
+/* .swiper-button-next {
+  margin-right: 5rem;
+}
+
+.swiper-button-prev {
+  margin-left: 5rem;
+} */
+/* Adjust arrow size */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px; /* Default is 20px */
+  font-weight: bold;
+}
